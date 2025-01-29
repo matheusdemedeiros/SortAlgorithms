@@ -1,4 +1,4 @@
-﻿namespace QuickSort.Utils
+﻿namespace Sort.ConsoleApp.Utils
 {
     public static class NumberListBuilder
     {
