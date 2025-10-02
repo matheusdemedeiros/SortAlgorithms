@@ -1,23 +1,44 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <PackageId>Matheus.SortAlgorithms</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>Matheus de Medeiros</Authors>
-    <Product>SortAlgorithms</Product>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
 
-<PropertyGroup>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-</PropertyGroup>
+		<!-- Informações do pacote -->
+		<PackageId>Matheus.SortAlgorithms</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Matheus de Medeiros</Authors>
+		<Company>Matheus de Medeiros</Company>
+		<Product>SortAlgorithms</Product>
 
+		<!-- Links importantes -->
+		<PackageProjectUrl>https://github.com/matheusdemedeiros/SortAlgorithms</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/matheusdemedeiros/SortAlgorithms</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageIcon>Icon.jpg</PackageIcon>
 
-    <ItemGroup>
-        <None Include="..\README.md" Pack="true" PackagePath="\"/>
-    </ItemGroup>
+		<!-- Licença e documentação -->
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<!-- Categoria e tags -->
+		<Description>A collection of popular sorting algorithms in C#, including QuickSort and more to come. Ideal for educational and practical use.</Description>
+		<PackageTags>sorting;algorithms;quicksort;computer-science;datastructures</PackageTags>
+
+		<!-- Configurações extras -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<!-- Inclusão de arquivos extras -->
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include=".\Icon.jpg" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Icon.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 
 </Project>
