@@ -29,7 +29,7 @@ namespace Matheus.SortAlgorithms.HeapSort
         /// </summary>
         /// <param name="numbers">The list of integers to be processed.</param>
         /// <returns>
-        /// A new list sorted in ascending order. 
+        /// A list sorted. 
         /// Returns <c>null</c> if the list is empty, and returns the original list if it contains only one element.
         /// </returns>
         private List<int>? Process(List<int> numbers)
@@ -84,6 +84,5 @@ namespace Matheus.SortAlgorithms.HeapSort
                 Heapify(numbers, n, root);
             }
         }
-
     }
 }
