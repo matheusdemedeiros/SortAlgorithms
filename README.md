@@ -38,8 +38,7 @@ Install-Package Matheus.SortAlgorithms
 ### Example with QuickSort  
 
 ```csharp
-using Sort.Domain.Algorithms.Quicksort;
-using Sort.Domain.Algorithms.Shared;
+using Matheus.SortAlgorithms.Quicksort;
 
 class Program
 {
@@ -63,22 +62,6 @@ class Program
 Input: 10, 7, 8, 9, 1, 5
 Sorted: 1, 5, 7, 8, 9, 10
 Success: True
-```
-
----
-
-## 📂 Project Structure  
-
-```markdown
-Sort.Domain
- ├── Algorithms
- │    ├── Abstractions   # Interfaces (ISortAlgorithm)
- │    ├── Quicksort      # QuickSort implementation
- │    └── ... (other algorithms coming soon)
- │
- ├── Shared              # Common objects (SortResult)
- ├── Sort.Domain.csproj
- └── README.md
 ```
 
 ---
