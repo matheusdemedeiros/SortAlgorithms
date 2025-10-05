@@ -1,12 +1,12 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
 using Matheus.SortAlgorithms.Core;
 
-namespace Matheus.SortAlgorithms.Algorithms.HeapSort
+namespace Matheus.SortAlgorithms.Algorithms
 {
     /// <summary>
     /// Implementation of the HeapSort sorting algorithm.
     /// </summary>
-    public class HeapSortAlgorithm : ISortAlgorithm
+    public class HeapSort : ISortAlgorithm
     {
         /// <summary>
         /// Sorts a list of integers using the HeapSort algorithm.

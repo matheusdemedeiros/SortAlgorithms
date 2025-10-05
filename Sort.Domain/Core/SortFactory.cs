@@ -1,6 +1,5 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
-using Matheus.SortAlgorithms.Algorithms.HeapSort;
-using Matheus.SortAlgorithms.Algorithms.QuickSort;
+using Matheus.SortAlgorithms.Algorithms;
 
 namespace Matheus.SortAlgorithms.Core
 {
@@ -16,14 +15,14 @@ namespace Matheus.SortAlgorithms.Core
         /// <returns>
         /// An instance of <see cref="ISortAlgorithm"/> corresponding to the provided type.
         /// </returns>
-        public static ISortAlgorithm Create(SortAlgorithmTypes algorithmType)
+        public static ISortAlgorithm Create(SortAlgorithms algorithmType)
         {
             switch(algorithmType)
             {
-                case SortAlgorithmTypes.QuickSort:
-                    return new QuickSortAlgorithm();
-                case SortAlgorithmTypes.HeapSort:
-                    return new HeapSortAlgorithm();
+                case SortAlgorithms.QuickSort:
+                    return new QuickSort();
+                case SortAlgorithms.HeapSort:
+                    return new HeapSort();
                 default:
                     throw new ArgumentException("Invalid algorithm type");
             }

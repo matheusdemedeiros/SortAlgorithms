@@ -1,12 +1,12 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
 using Matheus.SortAlgorithms.Core;
 
-namespace Matheus.SortAlgorithms.Algorithms.QuickSort
+namespace Matheus.SortAlgorithms.Algorithms
 {
     /// <summary>
     /// Implementation of the QuickSort sorting algorithm.
     /// </summary>
-    public class QuickSortAlgorithm : ISortAlgorithm
+    public class QuickSort : ISortAlgorithm
     {
         /// <summary>
         /// Sorts a list of integers using the QuickSort algorithm.

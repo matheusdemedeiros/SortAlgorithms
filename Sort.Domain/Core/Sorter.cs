@@ -22,7 +22,7 @@ namespace Matheus.SortAlgorithms.Core
         /// Initializes a new instance of the <see cref="Sorter"/> class using the specified sorting algorithm type.
         /// </summary>
         /// <param name="algorithm">The type of sorting algorithm to use.</param>
-        public Sorter(SortAlgorithmTypes algorithm)
+        public Sorter(SortAlgorithms algorithm)
         {
             _sw = new Stopwatch();
             _sortAlgorithm = SortFactory.Create(algorithm);

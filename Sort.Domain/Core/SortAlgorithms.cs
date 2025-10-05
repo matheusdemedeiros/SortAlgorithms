@@ -3,7 +3,7 @@
     /// <summary>
     /// Specifies the available types of sorting algorithms.
     /// </summary>
-    public enum SortAlgorithmTypes
+    public enum SortAlgorithms
     {
         /// <summary>
         /// QuickSort algorithm.
