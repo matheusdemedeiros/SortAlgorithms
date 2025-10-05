@@ -1,5 +1,5 @@
 ﻿using Sort.ConsoleApp.Utils;
-using Sort.Domain.Algorithms.Quicksort;
+using Sort.Domain.Algorithms.HeapSort;
 using System.Diagnostics;
 
 var timeToGenerateNumbers = new Stopwatch();
@@ -11,10 +11,10 @@ timeToGenerateNumbers.Stop();
 ConsoleUtils.PrintNumberList(numbers);
 Console.WriteLine(@"Tempo decorrido para gerar a lista de numeros: {0} mili-segundos", timeToGenerateNumbers.ElapsedMilliseconds);
 
-var quickSortAlgorithm = new QuickSortAlgorithm();
+var algorithm = new HeapSortAlgorithm();
 
 timeToSortNumbers.Start();
-var sortResult = quickSortAlgorithm.Sort(numbers);
+var sortResult = algorithm.Sort(numbers);
 timeToSortNumbers.Stop();
 ConsoleUtils.PrintNumberList(sortResult.SortedList.ToList());
 Console.WriteLine(@"Tempo decorrido para ordenar a lista de números: {0} mili-segundos", timeToSortNumbers.ElapsedMilliseconds);
