@@ -22,13 +22,13 @@ Planned for future versions:
 Add the NuGet package to your project:  
 
 ```powershell
-dotnet add package Sort.Domain
+dotnet add package Matheus.SortAlgorithms
 ```
 
 Or via **Package Manager Console**:  
 
 ```powershell
-Install-Package Sort.Domain
+Install-Package Matheus.SortAlgorithms
 ```
 
 ---
