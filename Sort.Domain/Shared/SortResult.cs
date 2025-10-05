@@ -1,4 +1,4 @@
-﻿namespace Sort.Domain.Algorithms.Shared
+﻿namespace Matheus.SortAlgorithms.Shared
 {
     /// <summary>
     /// Represents the result of a sorting operation.

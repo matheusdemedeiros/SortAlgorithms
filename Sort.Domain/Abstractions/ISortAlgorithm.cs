@@ -1,6 +1,6 @@
-﻿using Sort.Domain.Algorithms.Shared;
+﻿using Matheus.SortAlgorithms.Shared;
 
-namespace Sort.Domain.Algorithms.Abstractions
+namespace Matheus.SortAlgorithms.Abstractions
 {
     /// <summary>
     /// Defines the contract for sorting algorithms.

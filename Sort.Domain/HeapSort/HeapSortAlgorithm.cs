@@ -1,7 +1,7 @@
-﻿using Sort.Domain.Algorithms.Abstractions;
-using Sort.Domain.Algorithms.Shared;
+﻿using Matheus.SortAlgorithms.Abstractions;
+using Matheus.SortAlgorithms.Shared;
 
-namespace Sort.Domain.Algorithms.HeapSort
+namespace Matheus.SortAlgorithms.HeapSort
 {
     /// <summary>
     /// Implementation of the HeapSort sorting algorithm.

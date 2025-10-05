@@ -1,7 +1,7 @@
-﻿using Sort.Domain.Algorithms.Abstractions;
-using Sort.Domain.Algorithms.Shared;
+﻿using Matheus.SortAlgorithms.Abstractions;
+using Matheus.SortAlgorithms.Shared;
 
-namespace Sort.Domain.Algorithms.Quicksort
+namespace Matheus.SortAlgorithms.QuickSort
 {
     /// <summary>
     /// Implementation of the QuickSort sorting algorithm.
