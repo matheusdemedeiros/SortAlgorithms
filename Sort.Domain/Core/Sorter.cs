@@ -1,12 +1,18 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
 using System.Diagnostics;
 
-namespace Matheus.SortAlgorithms
+namespace Matheus.SortAlgorithms.Core
 {
     public class Sorter : ISorter
     {
         private readonly Stopwatch _sw;
         private readonly ISortAlgorithm _sortAlgorithm;
+
+        public Sorter(SortAlgorithmTypes algorithm)
+        {
+            _sw = new Stopwatch();
+            _sortAlgorithm = SortFactory.Create(algorithm);
+        }
 
         public Sorter(ISortAlgorithm sortAlgorithm)
         {
@@ -16,10 +22,11 @@ namespace Matheus.SortAlgorithms
 
         public ISortResult Sort(List<int> numbers)
         {
-            // TODO add validators
             _sw.Reset();
             _sw.Start();
+
             var result = _sortAlgorithm.Sort(numbers);
+
             _sw.Stop();
             result.ExecutionTimeMilliseconds = _sw.ElapsedMilliseconds;
 

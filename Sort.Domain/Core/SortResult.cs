@@ -1,6 +1,6 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
 
-namespace Matheus.SortAlgorithms.Shared
+namespace Matheus.SortAlgorithms.Core
 {
     /// <summary>
     /// Represents the result of a sorting operation.

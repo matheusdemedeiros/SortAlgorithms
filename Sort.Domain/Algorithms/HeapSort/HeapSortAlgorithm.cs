@@ -1,7 +1,7 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
-using Matheus.SortAlgorithms.Shared;
+using Matheus.SortAlgorithms.Core;
 
-namespace Matheus.SortAlgorithms.HeapSort
+namespace Matheus.SortAlgorithms.Algorithms.HeapSort
 {
     /// <summary>
     /// Implementation of the HeapSort sorting algorithm.
