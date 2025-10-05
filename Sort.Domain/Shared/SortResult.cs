@@ -17,5 +17,10 @@ namespace Matheus.SortAlgorithms.Shared
         /// Gets or sets a value indicating whether the sorting operation was successful.
         /// </summary>
         public bool Success { get; set; }
+
+        /// <summary>
+        /// Gets or sets the execution time of the sorting algorithm, in milliseconds.
+        /// </summary>
+        public long ExecutionTimeMilliseconds { get; set; }
     }
 }

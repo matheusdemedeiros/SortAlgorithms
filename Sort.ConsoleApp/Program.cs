@@ -1,4 +1,5 @@
-﻿using Matheus.SortAlgorithms.HeapSort;
+﻿using Matheus.SortAlgorithms;
+using Matheus.SortAlgorithms.HeapSort;
 using Sort.ConsoleApp.Utils;
 using System.Diagnostics;
 
@@ -12,7 +13,8 @@ ConsoleUtils.PrintNumberList(numbers);
 Console.WriteLine(@"Tempo decorrido para gerar a lista de numeros: {0} mili-segundos", timeToGenerateNumbers.ElapsedMilliseconds);
 
 var algorithm = new HeapSortAlgorithm();
-
+var sorter = new Sorter(algorithm);
+var r = sorter.Sort(numbers);
 timeToSortNumbers.Start();
 var sortResult = algorithm.Sort(numbers);
 timeToSortNumbers.Stop();
