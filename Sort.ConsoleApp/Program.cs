@@ -1,5 +1,5 @@
-﻿using Sort.ConsoleApp.Utils;
-using Sort.Domain.Algorithms.HeapSort;
+﻿using Matheus.SortAlgorithms.HeapSort;
+using Sort.ConsoleApp.Utils;
 using System.Diagnostics;
 
 var timeToGenerateNumbers = new Stopwatch();
