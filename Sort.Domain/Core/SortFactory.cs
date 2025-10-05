@@ -6,7 +6,7 @@ namespace Matheus.SortAlgorithms.Core
     /// <summary>
     /// Provides a factory for creating instances of sorting algorithms based on the specified type.
     /// </summary>
-    public static class SortFactory
+    internal static class SortFactory
     {
         /// <summary>
         /// Creates an instance of <see cref="ISortAlgorithm"/> based on the specified algorithm type.
@@ -15,7 +15,7 @@ namespace Matheus.SortAlgorithms.Core
         /// <returns>
         /// An instance of <see cref="ISortAlgorithm"/> corresponding to the provided type.
         /// </returns>
-        public static ISortAlgorithm Create(SortAlgorithms algorithmType)
+        internal static ISortAlgorithm Create(SortAlgorithms algorithmType)
         {
             switch(algorithmType)
             {

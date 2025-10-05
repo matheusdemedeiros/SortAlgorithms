@@ -6,7 +6,7 @@ namespace Matheus.SortAlgorithms.Algorithms
     /// <summary>
     /// Implementation of the QuickSort sorting algorithm.
     /// </summary>
-    public class QuickSort : ISortAlgorithm
+    internal class QuickSort : ISortAlgorithm
     {
         /// <summary>
         /// Sorts a list of integers using the QuickSort algorithm.

@@ -6,7 +6,7 @@ namespace Matheus.SortAlgorithms.Algorithms
     /// <summary>
     /// Implementation of the HeapSort sorting algorithm.
     /// </summary>
-    public class HeapSort : ISortAlgorithm
+    internal class HeapSort : ISortAlgorithm
     {
         /// <summary>
         /// Sorts a list of integers using the HeapSort algorithm.
