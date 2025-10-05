@@ -1,5 +1,8 @@
 ﻿namespace Matheus.SortAlgorithms.Abstractions
 {
+    /// <summary>
+    /// Defines a contract for sorting a list of integers and returning the result.
+    /// </summary>
     public interface ISorter
     {
         /// <summary>

@@ -1,10 +1,13 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
-using Matheus.SortAlgorithms.HeapSort;
-using Matheus.SortAlgorithms.QuickSort;
+using Matheus.SortAlgorithms.Algorithms.HeapSort;
+using Matheus.SortAlgorithms.Algorithms.QuickSort;
 
 namespace Matheus.SortAlgorithms.Core
 {
-    internal static class SortFactory
+    /// <summary>
+    /// Provides a factory for creating instances of sorting algorithms based on the specified type.
+    /// </summary>
+    public static class SortFactory
     {
         /// <summary>
         /// Creates an instance of <see cref="ISortAlgorithm"/> based on the specified algorithm type.
