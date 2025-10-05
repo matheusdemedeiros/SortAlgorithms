@@ -16,7 +16,7 @@
 		<PackageProjectUrl>https://github.com/matheusdemedeiros/SortAlgorithms</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/matheusdemedeiros/SortAlgorithms</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageIcon>Icon.jpg</PackageIcon>
+		<PackageIcon>Icon.png</PackageIcon>
 
 		<!-- Licença e documentação -->
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -28,15 +28,20 @@
 
 		<!-- Configurações extras -->
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ApplicationIcon>Icon.ico</ApplicationIcon>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="Icon.ico" />
+	</ItemGroup>
 
 	<!-- Inclusão de arquivos extras -->
 	<ItemGroup>
 		<None Include="..\README.md" Pack="true" PackagePath="\" />
-		<None Include=".\Icon.jpg" Pack="true" PackagePath="\" />
+		<None Include=".\Icon.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <None Update="Icon.jpg">
+	  <None Update="Icon.png">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
 	</ItemGroup>
