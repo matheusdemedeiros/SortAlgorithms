@@ -15,7 +15,7 @@ namespace Matheus.SortAlgorithms.QuickSort
         /// <returns>
         /// A <see cref="SortResult"/> containing the sorted list and the operation status.
         /// </returns>
-        public SortResult Sort(List<int> numbers)
+        public ISortResult Sort(List<int> numbers)
         {
             var sorted = new SortResult();
             sorted.SortedList = Process(numbers);

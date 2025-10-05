@@ -1,6 +1,4 @@
-﻿using Matheus.SortAlgorithms.Shared;
-
-namespace Matheus.SortAlgorithms.Abstractions
+﻿namespace Matheus.SortAlgorithms.Abstractions
 {
     /// <summary>
     /// Defines the contract for sorting algorithms.
@@ -12,8 +10,8 @@ namespace Matheus.SortAlgorithms.Abstractions
         /// </summary>
         /// <param name="numbers">The list of integers to be sorted.</param>
         /// <returns>
-        /// A <see cref="SortResult"/> containing the sorted list and the operation status.
+        /// A <see cref="ISortResult"/> containing the sorted list and the operation status.
         /// </returns>
-        SortResult Sort(List<int> numbers);
+        ISortResult Sort(List<int> numbers);
     }
 }

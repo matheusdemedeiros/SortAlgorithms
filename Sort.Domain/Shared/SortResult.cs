@@ -1,9 +1,11 @@
-﻿namespace Matheus.SortAlgorithms.Shared
+﻿using Matheus.SortAlgorithms.Abstractions;
+
+namespace Matheus.SortAlgorithms.Shared
 {
     /// <summary>
     /// Represents the result of a sorting operation.
     /// </summary>
-    public class SortResult
+    public class SortResult : ISortResult
     {
         /// <summary>
         /// Gets or sets the sorted list of integers.
