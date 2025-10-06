@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sort.Domain\Matheus.SortAlgorithms.csproj" />
+    <ProjectReference Include="..\Matheus.SortAlgorithms\Matheus.SortAlgorithms.csproj" />
   </ItemGroup>
 
 </Project>

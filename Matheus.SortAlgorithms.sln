@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.0.11018.127
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matheus.SortAlgorithms", "Sort.Domain\Matheus.SortAlgorithms.csproj", "{BDEE5FEE-3DA5-4738-9A01-CE501C4D6EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matheus.SortAlgorithms", "Matheus.SortAlgorithms\Matheus.SortAlgorithms.csproj", "{BDEE5FEE-3DA5-4738-9A01-CE501C4D6EB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matheus.SortAlgorithms.ConsoleApp", "Sort.ConsoleApp\Matheus.SortAlgorithms.ConsoleApp.csproj", "{BEB32D92-94F6-40DC-9520-A0B35A8AC525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matheus.SortAlgorithms.ConsoleApp", "Matheus.SortAlgorithms.ConsoleApp\Matheus.SortAlgorithms.ConsoleApp.csproj", "{BEB32D92-94F6-40DC-9520-A0B35A8AC525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matheus.SortAlgorithms.Package.Instalation.Test.ConsoleApp", "Sort.Package.Instalation.Test.ConsoleApp\Matheus.SortAlgorithms.Package.Instalation.Test.ConsoleApp.csproj", "{3B5EFE43-9510-4BC3-8D76-AA25C561126B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matheus.SortAlgorithms.Package.Instalation.Test.ConsoleApp", "Matheus.SortAlgorithms.Package.Instalation.Test.ConsoleApp\Matheus.SortAlgorithms.Package.Instalation.Test.ConsoleApp.csproj", "{3B5EFE43-9510-4BC3-8D76-AA25C561126B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
