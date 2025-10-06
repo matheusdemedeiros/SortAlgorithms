@@ -31,8 +31,8 @@ jobs:
       - name: Test
         run: dotnet test --no-build --verbosity normal
 
-      - name: Pack
-        run: dotnet pack --configuration Release --no-build -o ./artifacts /p:PackageVersion=${{ env.PACKAGE_VERSION }}
+      - name: Pack Matheus.SortAlgorithms
+        run: dotnet pack ./Matheus.SortAlgorithms/Matheus.SortAlgorithms.csproj --configuration Release --no-build -o ./artifacts /p:PackageVersion=${{ env.PACKAGE_VERSION }}
 
-      - name: Publish to NuGet
-        run: dotnet nuget push ./artifacts/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+      - name: Publish Matheus.SortAlgorithms to NuGet
+        run: dotnet nuget push ./artifacts/Matheus.SortAlgorithms.${{ env.PACKAGE_VERSION }}.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json

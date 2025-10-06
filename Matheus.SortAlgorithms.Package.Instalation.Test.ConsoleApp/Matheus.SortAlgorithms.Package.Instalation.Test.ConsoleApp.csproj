@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Matheus.SortAlgorithms" Version="1.0.1" />
+    <PackageReference Include="Matheus.SortAlgorithms" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
