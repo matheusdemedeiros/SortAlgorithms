@@ -14,5 +14,10 @@
         /// HeapSort algorithm.
         /// </summary>
         HeapSort = 1,
+
+        /// <summary>
+        /// BubbleSort algorithm.
+        /// </summary>
+        BubbleSort = 2,
     }
 }

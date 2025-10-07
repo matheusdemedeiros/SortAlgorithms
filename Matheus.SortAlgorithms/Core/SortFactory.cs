@@ -23,6 +23,8 @@ namespace Matheus.SortAlgorithms.Core
                     return new QuickSort();
                 case SortAlgorithms.HeapSort:
                     return new HeapSort();
+                case SortAlgorithms.BubbleSort:
+                    return new BubbleSort();
                 default:
                     throw new ArgumentException("Invalid algorithm type");
             }
