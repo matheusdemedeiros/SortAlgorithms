@@ -29,5 +29,10 @@
         /// InsertionSort algorithm.
         /// </summary>
         InsertionSort = 4,
+
+        /// <summary>
+        /// MergeSort algorithm.
+        /// </summary>
+        MergeSort = 5,
     }
 }

@@ -29,6 +29,8 @@ namespace Matheus.SortAlgorithms.Core
                     return new SelectionSort();
                 case SortAlgorithms.InsertionSort:
                     return new InsertionSort();
+                case SortAlgorithms.MergeSort:
+                    return new MergeSort();
                 default:
                     throw new ArgumentException("Invalid algorithm type");
             }
