@@ -7,13 +7,10 @@ Currently available:
 
 - ✅ QuickSort  
 - ✅ HeapSort  
-
-Planned for future versions:  
-
-- 🔜 MergeSort  
-- 🔜 BubbleSort  
-- 🔜 InsertionSort  
-- 🔜 SelectionSort  
+- ✅ BubbleSort   
+- ✅ SelectionSort  
+- ✅ SelectionSort  
+- ✅ MergeSort  
 
 ---
 
