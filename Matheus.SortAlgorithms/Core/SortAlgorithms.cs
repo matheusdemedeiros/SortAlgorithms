@@ -19,5 +19,10 @@
         /// BubbleSort algorithm.
         /// </summary>
         BubbleSort = 2,
+
+        /// <summary>
+        /// SelectionSort algorithm.
+        /// </summary>
+        SelectionSort = 3,
     }
 }
