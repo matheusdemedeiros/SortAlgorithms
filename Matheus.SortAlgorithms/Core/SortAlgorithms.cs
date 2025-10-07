@@ -24,5 +24,10 @@
         /// SelectionSort algorithm.
         /// </summary>
         SelectionSort = 3,
+
+        /// <summary>
+        /// InsertionSort algorithm.
+        /// </summary>
+        InsertionSort = 4,
     }
 }

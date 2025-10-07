@@ -10,7 +10,7 @@ timeToGenerateNumbers.Stop();
 ConsoleUtils.PrintNumberList(numbers);
 Console.WriteLine(@"Tempo decorrido para gerar a lista de numeros: {0} mili-segundos", timeToGenerateNumbers.ElapsedMilliseconds);
 
-var sorter = new Sorter(SortAlgorithms.HeapSort);
+var sorter = new Sorter(SortAlgorithms.InsertionSort);
 var result = sorter.Sort(numbers);
 
 ConsoleUtils.PrintNumberList(result.SortedList.ToList());
