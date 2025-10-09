@@ -1,6 +1,8 @@
 ﻿using Matheus.SortAlgorithms.Abstractions;
 using Matheus.SortAlgorithms.Algorithms;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("Matheus.SortAlgorithms.Unit.Tests")]
 namespace Matheus.SortAlgorithms.Core
 {
     /// <summary>
