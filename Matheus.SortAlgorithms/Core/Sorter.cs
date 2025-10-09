@@ -49,6 +49,36 @@ namespace Matheus.SortAlgorithms.Core
         {
             _sw.Reset();
             _sw.Start();
+            // TODO: refactor this method. All validations should be done in other places
+            if (numbers == null)
+            {
+                return new SortResult
+                {
+                    Success = false,
+                    SortedList = null,
+                    ExecutionTimeMilliseconds = 0
+                };
+            }
+
+            if (numbers.Count == 0)
+            {
+                return new SortResult
+                {
+                    Success = false,
+                    SortedList = numbers,
+                    ExecutionTimeMilliseconds = 0
+                };
+            }
+
+            if (numbers.Count == 1)
+            {
+                return new SortResult
+                {
+                    Success = true,
+                    SortedList = numbers,
+                    ExecutionTimeMilliseconds = 0
+                };
+            }
 
             var result = _sortAlgorithm.Sort(numbers);
 
